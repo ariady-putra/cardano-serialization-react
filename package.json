@@ -1,0 +1,27 @@
+{
+  "name": "blockfrost-heroku",
+  "version": "0.1.0",
+  "description": "React & blockfrost-js on Heroku",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariady-putra/blockfrost-react.git"
+  },
+  "keywords": [
+    "blockfrost",
+    "react",
+    "heroku"
+  ],
+  "author": "Ariady Putra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariady-putra/blockfrost-react/issues"
+  },
+  "homepage": "https://github.com/ariady-putra/blockfrost-react#readme",
+  "engines": {
+    "node": "v14.20.0"
+  }
+}

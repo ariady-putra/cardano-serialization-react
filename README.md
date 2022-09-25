@@ -1,2 +1,3 @@
-# cardano-serialization-react
-Bare-minimum implementation of wallet DApp-connector using cardano-serialization-lib on React
+# React / Cardano serialization
+- **Backend**: Node.js (**Blockfrost** / protocolParameters)
+- **Frontend**: React (**Cardano serialization**)
