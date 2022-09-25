@@ -1,26 +1,27 @@
 {
-  "name": "blockfrost-heroku",
+  "name": "cardano-serialization-react",
   "version": "0.1.0",
-  "description": "React & blockfrost-js on Heroku",
+  "description": "React & cardano-serialization-lib",
   "scripts": {
     "start": "cd backend && npm start",
     "build": "cd frontend && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariady-putra/blockfrost-react.git"
+    "url": "git+https://github.com/ariady-putra/cardano-serialization-react.git"
   },
   "keywords": [
-    "blockfrost",
+    "wallet",
+    "serialization",
     "react",
-    "heroku"
+    "dapp"
   ],
   "author": "Ariady Putra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ariady-putra/blockfrost-react/issues"
+    "url": "https://github.com/ariady-putra/cardano-serialization-react/issues"
   },
-  "homepage": "https://github.com/ariady-putra/blockfrost-react#readme",
+  "homepage": "https://github.com/ariady-putra/cardano-serialization-react#readme",
   "engines": {
     "node": "v14.20.0"
   }

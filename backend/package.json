@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariady-putra/blockfrost-react.git"
+    "url": "git+https://github.com/ariady-putra/cardano-serialization-react.git"
   },
   "keywords": [
     "blockfrost"
@@ -22,7 +22,7 @@
   "author": "Ariady Putra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ariady-putra/blockfrost-react/issues"
+    "url": "https://github.com/ariady-putra/cardano-serialization-react/issues"
   },
-  "homepage": "https://github.com/ariady-putra/blockfrost-react#readme"
+  "homepage": "https://github.com/ariady-putra/cardano-serialization-react#readme"
 }
