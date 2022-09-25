@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "export NODE_OPTIONS=\"--max-old-space-size=8192\" && conc \"node ../backend/server\" \"react-scripts start\"",
-    "build": "npm i && react-scripts build && cd ../backend && npm run build",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=8192\" && npm i && react-scripts build && cd ../backend && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
