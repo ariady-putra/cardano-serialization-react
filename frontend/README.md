@@ -1,5 +1,5 @@
 # `npm start`
-Runs frontend concurrently with backend (for development). For Heroku deployment switch to `heroku` branch.
+Runs frontend concurrently with backend (for development). For actual deployment run npm build & start from the root instead.
 
 ## [`package.json`](package.json#L16)
 ```json
