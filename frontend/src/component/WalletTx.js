@@ -51,7 +51,7 @@ function WalletTx({wallet}) {
             const feeAlgo = LinearFee.new(minFeeA, minFeeB);
             
             const coinsPerUtxoWord = BigNum.from_str(pp.coins_per_utxo_word);
-            const coinsPerUtxoByte = BigNum.from_str(pp.coins_per_utxo_size);
+            // const coinsPerUtxoByte = BigNum.from_str(pp.coins_per_utxo_size);
             
             const poolDeposit = BigNum.from_str(pp.pool_deposit);
             const keyDeposit  = BigNum.from_str(pp.key_deposit);
@@ -59,7 +59,7 @@ function WalletTx({wallet}) {
             const config = TransactionBuilderConfigBuilder.new()
               .fee_algo(feeAlgo)
               .coins_per_utxo_word(coinsPerUtxoWord)
-              .coins_per_utxo_byte(coinsPerUtxoByte)
+              // .coins_per_utxo_byte(coinsPerUtxoByte)
               .pool_deposit(poolDeposit)
               .key_deposit(keyDeposit)
               .max_value_size(pp.max_val_size)
