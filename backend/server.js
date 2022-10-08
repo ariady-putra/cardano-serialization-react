@@ -50,6 +50,12 @@ app.get('/pools', function(req, rsp) {
   run(API.pools({ order: 'desc' }), rsp);
 });
 
+app.get('/specificAsset', function(req, rsp) {
+  const policyID  = req.query.policy_id;
+  const assetName = req.query.asset_name;
+  run(API.assetsById(policyID + assetName), rsp);
+});
+
 app.get('*', function(req, rsp) { // Any other GET requests
   rsp.sendFile(path.resolve(__dirname, frontendBuild, 'index.html'));
 });
