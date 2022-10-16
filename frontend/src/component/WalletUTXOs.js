@@ -36,10 +36,9 @@ function WalletUTXOs({wallet}) {
             const output = transactionUnspentOutput.output().to_js_value();
             
             let metadata = [];
-            const multiasset = transactionUnspentOutput.output().to_js_value().amount.multiasset;
-            if(multiasset != null)
+            if(output.amount && output.amount.multiasset)
             {
-              const multiassetEntries = Object.entries(multiasset).map(async kv => {
+              const multiassetEntries = Object.entries(output.amount.multiasset).map(async kv => {
                 const [policyID, asset] = kv;
                 const assetEntries = Object.entries(asset).map(async kv => {
                   const [assetName, amount] = kv;
